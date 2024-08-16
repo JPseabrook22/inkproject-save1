@@ -10,7 +10,8 @@
     },
     "dependencies": {
         "@solana/web3.js": "^1.30.0",
-        "buffer": "^6.0.3"
+        "buffer": "^6.0.3",
+        "uuid": "^10.0.0"
     },
     "devDependencies": {
         "@babel/core": "^7.25.2",
