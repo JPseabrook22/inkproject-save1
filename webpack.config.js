@@ -3,9 +3,9 @@ const path = require('path');
 module.exports = {
     entry: './src/index.js', // Entry point for your application
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js', // Output bundle
-    },
+        path: path.resolve(__dirname, 'dist'), // This should match the output directory
+        filename: 'bundle.js',
+      },
     module: {
         rules: [
             {

@@ -4,13 +4,15 @@
     "description": "A simple Solana project to connect wallet and sign a transaction",
     "main": "index.js",
     "scripts": {
-        "start": "webpack serve --open",
-        "build": "webpack --config webpack.config.js",
-        "serve": "live-server ."
+        "build": "webpack --mode production"
+      },
+      "vercel-build": {
+        "outputDirectory": "dist"
     },
     "dependencies": {
         "@solana/web3.js": "^1.30.0",
         "buffer": "^6.0.3",
+        "chokidar": "^3.6.0",
         "uuid": "^10.0.0"
     },
     "devDependencies": {
